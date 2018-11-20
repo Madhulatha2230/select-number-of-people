@@ -1,0 +1,647 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+.red_err
+{
+   position: relative;
+    bottom: 19px;
+	left:15px;
+     text-align: center;
+      color: red;
+       text-align: center !important;
+           font-weight: 300;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+
+}
+
+.green_succ
+{
+     position: relative;
+    bottom: 19px;
+	left:15px;
+     text-align: center;
+      color: green;
+       text-align: center !important;
+           font-weight: 300;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+}
+
+.error_display{
+	margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+}
+    
+
+.success_display{
+	margin-top: -8% !important;
+    text-align: center !important;
+    color: green !important;
+    
+}
+
+.cardnew{
+
+	font-weight: 300;
+    width: 155% !important;
+    max-width: 520% !important;
+    height: 500px !important;
+    margin-left: -30% !important;
+       margin-top: 85px;
+}
+
+.footernew
+{
+	padding-top: 0px !important;
+    background-color: #35BAF6 !important;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+[type=radio]:checked+label:after {
+    border-color: #35BAF6 !important;
+    background-color: #35BAF6 !important;
+    z-index: 0;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #35BAF6 !important;
+  box-shadow: 0 1px 0 0 #35BAF4 !important;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search-md]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.md-textarea:focus:not([readonly]) + label {
+  color: #35BAF6 !important;
+}
+
+.md-form .prefix.active {
+    color: #35BAF6 !important;
+}
+
+.tabbar
+{
+	    margin-top: -90px !important;
+}
+.errorspace
+{
+	width: 105% !important;
+    max-width: 200% !important;
+}
+
+.faclose1
+{
+	  margin-left: 126px;
+      color: red;
+}
+
+.tagline
+{
+    font-weight: 300;
+    margin-left: 19.5% !important;
+    color: #3F51B1 !important;
+}
+
+.progressbar
+{
+    display: block;
+    height: 3px;
+    top: -123.6px;
+    left: 4px;
+}
+
+@media  screen and (max-width: 2560px) {
+
+
+
+
+
+}
+
+
+@media  screen and (max-width: 1440px) {
+
+
+
+
+
+}
+
+@media  screen and (max-width: 1024px) {
+
+
+.centerDCDiv
+{
+    display:none;
+}
+
+.animation
+{
+    display:none;
+}
+
+.footernew {
+    padding-top: 0px !important;
+    background-color: #35BAF6 !important;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.cardnew {
+    width: 122% !important;
+    max-width: 520% !important;
+    height: auto !important;
+    margin-left: -61% !important;
+    margin-top: 187px;
+}
+
+.tabbar {
+    margin-top: -90px !important;
+    left: -33px;
+    width: 112% !important;
+    max-width: 200% !important;
+}
+
+.navbarchange
+{
+    white-space: nowrap;
+    margin-left: -6px !important;
+    width: 120%;
+}
+
+.tab_change
+{
+    margin-left: -17px !important;
+    width: 108% !important;
+}
+.logbtn
+{
+    background-color: #3f51b1;
+    position: relative;
+    left: -13px;
+     width: 97%;
+}
+
+.changebtn
+{
+    background-color: #3f51b1;
+    position: relative;
+   left: -3px;
+    width: 97%;
+    top: 22px;
+}
+
+.finimage
+{
+    margin-left: 77%;
+}
+
+.error_display {
+    margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+   margin-left: -17px;
+    font-size: 15px;
+}
+
+.box-info {
+  left: -1px !important;
+    top: -266px !important;
+    width: 99% !important;
+}
+
+
+.tagline {
+    margin-left: 78% !important;
+    white-space: nowrap;
+}
+#pswd_info
+{
+   font-size:15px;
+}
+
+
+
+}
+
+@media  screen and (max-width: 767px) {
+    .centerDCDiv
+{
+    display:none;
+}
+
+.animation
+{
+    display:none;
+}
+
+.footernew {
+    padding-top: 0px !important;
+   background-color: #35BAF6 !important;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.cardnew {
+    width: 104% !important;
+    max-width: 520% !important;
+    height: auto !important;
+    margin-left: -2% !important;
+    margin-top: 26px;
+}
+
+.tabbar {
+    margin-top: -90px !important;
+    left: -33px;
+    width: 117% !important;
+    max-width: 200% !important;
+}
+
+.navbarchange
+{
+    white-space: nowrap;
+    margin-left: -6px !important;
+    width: 120%;
+}
+
+.tab_change
+{
+    margin-left: -49px !important;
+    width: 118% !important;
+}
+.logbtn
+{
+    background-color: #3f51b1;
+    position: relative;
+ left: -8px;
+    width: 106%;
+}
+
+.changebtn
+{
+    background-color: #3f51b1;
+    position: relative;
+   left: -3px;
+    width: 97%;
+    top: 22px;
+}
+
+.finimage
+{
+    margin-left: 25%;
+}
+
+.error_display {
+    margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+   margin-left: -17px;
+    font-size: 15px;
+}
+
+.box-info {
+    left: 10px !important;
+    top: -258px !important;
+    width: 94% !important;
+}
+
+#pswd_info
+{
+    font-size:14px !important;
+}
+.tagline {
+   
+    margin-left: 30% !important;
+    }
+
+
+}
+
+@media  screen and (max-width: 425px) {
+
+.centerDCDiv
+{
+	display:none;
+}
+
+.animation
+{
+	display:none;
+}
+
+.footernew {
+    padding-top: 0px !important;
+   background-color: #35BAF6 !important;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.cardnew {
+    width: 104% !important;
+    max-width: 520% !important;
+    height: auto !important;
+    margin-left: -2% !important;
+    margin-top: 26px;
+}
+
+.tabbar {
+    margin-top: -90px !important;
+    left: -33px;
+    width: 117% !important;
+    max-width: 200% !important;
+}
+
+.navbarchange
+{
+	white-space: nowrap;
+    margin-left: -6px !important;
+    width: 120%;
+}
+
+.tab_change
+{
+	margin-left: -49px !important;
+    width: 131% !important;
+}
+.logbtn
+{
+	background-color: #3f51b1;
+    position: relative;
+    left: -13px;
+     width: 97%;
+}
+
+.changebtn
+{
+	background-color: #3f51b1;
+    position: relative;
+   left: -3px;
+    width: 97%;
+    top: 22px;
+}
+
+.finimage
+{
+	margin-left: 25%;
+}
+
+.error_display {
+    margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+   margin-left: -17px;
+    font-size: 15px;
+}
+
+.box-info {
+    left: 10px !important;
+    top: -258px !important;
+    width: 94% !important;
+}
+
+#pswd_info
+{
+    font-size:14px !important;
+}
+.tagline {
+   
+    margin-left: 30% !important;
+    }
+
+}
+
+@media  screen and (max-width: 375px) {
+
+
+.reportradio
+{
+	position: relative;
+    left: 127px;
+    top: 28px;
+}
+
+
+.admminradio
+{
+   position: relative;
+   top: 60px;
+    left: -91px;
+}
+
+.loginlabel
+{
+	position: relative;
+    left: 29px;
+}
+
+.tabbar {
+    margin-top: -90px !important;
+    left: -36px;
+    width: 122% !important;
+    max-width: 200% !important;
+}
+
+.navbarchange {
+    white-space: nowrap;
+    margin-left: -26px !important;
+    width:190px;
+}
+.logbtn
+{
+	background-color: #3f51b1;
+    position: relative;
+    left: -11px;
+    width:100%;
+}
+
+.changebtn
+{
+	background-color: #3f51b1;
+    position: relative;
+    left: -2px;
+    width: 100%;
+    top: 22px
+}
+
+.cardnew {
+
+     height: 522px !important;
+
+	}
+   	.red_err {
+    position: relative;
+    bottom: 42px;
+    color: red;
+    text-align: center !important;
+    font-weight: 300;
+    font-size: 16.5px;
+    font-family: FontAwesome;
+    white-space: nowrap;
+    left: 5px;
+
+}
+
+.error_display {
+    margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+    white-space: nowrap;
+    font-size: 12.5px;
+}
+
+.box-info
+{
+	
+ left: 10px !important;
+    top: -302px !important;
+    width: 97% !important;
+    
+}
+
+.tagline {
+   
+    margin-left: 27% !important;
+    }
+
+    .finimage {
+    margin-left: 22%;
+}
+
+
+
+}
+
+@media  screen and (max-width: 320px) {
+
+
+.loginlabel {
+    position: relative;
+     left: 13px;;
+}
+
+.admminradio {
+    position: relative;
+    top: 60px;
+    left: -101px;
+}
+
+.reportradio {
+    position: relative;
+    left: 102px;
+    top: 28px;
+}
+
+.tabbar {
+    margin-top: -90px !important;
+    left: -38px;
+    width: 129% !important;
+    max-width: 200% !important;
+}
+
+.navbarchange {
+    white-space: nowrap;
+    margin-left: -31px !important;
+    font-size: 13px;
+    width: 158% !important;
+}
+
+.logbtn
+{
+	background-color: #3f51b1;
+    position: relative;
+    left: -1px;
+    width:100%;
+}
+
+.changebtn
+{
+	background-color: #3f51b1;
+    position: relative;
+    left: 7px;
+    width:100%;
+    top: 22px;
+}
+
+.finimage {
+    margin-left: 16%;
+}
+.cardnew {
+
+     height: 522px !important;
+
+	}
+
+	.red_err {
+    position: relative;
+    bottom: 42px;
+    color: red;
+    text-align: center !important;
+    font-weight: 300;
+    font-size: 14.5px;
+    font-family: FontAwesome;
+    white-space: nowrap;
+    left: 9px;
+
+}
+
+.error_display {
+    margin-top: -8% !important;
+    text-align: center !important;
+    color: red !important;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 6px;
+}
+
+.box-info
+{
+	
+ left: 10px !important;
+    top: -326px !important;
+    width: 103% !important;
+    
+}
+
+.tagline {
+   
+    margin-left: 22% !important;
+    }
+
+}

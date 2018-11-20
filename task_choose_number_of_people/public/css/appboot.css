@@ -1,0 +1,425 @@
+
+@media  screen and (max-width: 2560px) {
+  
+}
+  @media  screen and (max-width: 1440px) {
+  }
+    @media  screen and (max-width: 1024px) {
+      .sellab
+  {
+    margin-left: 2%!important;
+    max-width: 45%!important;
+  }
+  .chipsel
+  {
+    margin-left: 28%!important;
+    margin-top: -16%!important;
+  }
+  .delsel
+  {
+    margin-left: 0%!important;
+    margin-top: -13%!important;
+  }
+  .ballab
+  {
+    margin-top: 7%!important;
+    margin-left: 2%!important;
+  }
+  .balrad
+  {
+    margin-top: -18.5%!important;
+    margin-left: 26%!important;
+  }
+  .linlab
+  {
+    margin-top: 6%!important;
+    margin-left: 2%!important;
+  }
+  .linrad
+  {
+    margin-top: -11.5%!important;
+    margin-left: 26.5%!important;
+  }
+  .ranlab
+  {
+    margin-top: 5.8%!important;
+    margin-left: 0.9%!important;
+  }
+  .fromdrop
+  {
+    margin-bottom: 22%!important;
+    margin-left: -36.5%!important;
+    margin-top: 11%!important;
+  }
+  .frominput
+  {
+    margin-left: 31%!important;
+    width: 224%!important;
+    font-size: 15px!important;
+  }
+   .todrop
+  {
+     margin-bottom: -3%!important;
+    margin-top: 37%;
+    margin-left: -32.5%!important;
+  }
+  .toinput
+  {
+    margin-left: 37.5%!important;
+    width: 285%!important;
+    font-size: 15px!important;
+  }
+    }
+
+@media  screen and (max-width: 768px) {
+   .sellab
+  {
+    margin-left: 2%!important;
+    max-width: 45%!important;
+  }
+  .chipsel
+  {
+    margin-left: 28%!important;
+    margin-top: -16%!important;
+  }
+  .delsel
+  {
+    margin-left: 0%!important;
+    margin-top: -13%!important;
+  }
+  .ballab
+  {
+    margin-top: 7%!important;
+    margin-left: 2%!important;
+  }
+  .balrad
+  {
+    margin-top: -18.5%!important;
+    margin-left: 26%!important;
+  }
+  .linlab
+  {
+    margin-top: 6%!important;
+    margin-left: 2%!important;
+  }
+  .linrad
+  {
+    margin-top: -11.5%!important;
+    margin-left: 26.5%!important;
+  }
+  .ranlab
+  {
+    margin-top: 5.8%!important;
+    margin-left: 0.9%!important;
+  }
+  .fromdrop
+  {
+    margin-bottom: -3%!important;
+    margin-left: -27.5%!important;
+  }
+  .frominput
+  {
+    margin-left: 41%!important;
+    width: 81%!important;
+    font-size: 15px!important;
+  }
+   .todrop
+  {
+    margin-bottom: -3%!important;
+    margin-top: 1%;
+    margin-left: -31.5%!important;
+  }
+  .toinput
+  {
+    margin-left: 46.5%!important;
+    width: 80%!important;
+    font-size: 15px!important;
+  }
+   .mobileicon
+  {
+  	    margin-left: 88%!important;
+  }
+
+
+   .contentcard
+  {
+    margin-left: 16%;
+    width: 100%;
+    }
+.searchbtn
+{
+top:2px !important;
+
+}
+.tableft
+{
+    margin-left: 14px !important;
+}
+
+}
+  @media  screen and (max-width: 425px) {
+     .sellab
+  {
+    margin-left:1%!important;
+  }
+  .chipsel
+  {
+     margin-left: 18%!important;
+    margin-top: -8%!important;
+  }
+  .delsel
+  {
+    margin-left: -10%!important;
+    margin-top: -9%!important;
+  }
+  .ballab
+  {
+     margin-top: 2%!important;
+    margin-left: -27%!important;
+  }
+  .balrad
+  {
+    margin-top: 1.5%!important;
+    margin-left: 8%!important;
+  }
+  .linlab
+  {
+    margin-top: 1%!important;
+    margin-left: -31%!important;
+  }
+  .linrad
+  {
+    margin-top: -0.5%!important;
+    margin-left: 8.5%!important;
+  }
+  .ranlab
+  {
+    margin-top: 1.8%!important;
+    margin-left: -31.1%!important;
+  }
+  .fromdrop
+  {
+     margin-bottom: -3%!important;
+    margin-left: -29.5%!important;
+  }
+  .frominput
+  {
+    margin-left: 44%!important;
+    width: 77%!important;
+    font-size: 15px!important;
+  }
+   .todrop
+  {
+    margin-bottom: -3%!important;
+    margin-top: 1%;
+    margin-left: -31.5%!important;
+  }
+  .toinput
+  {
+    margin-left: 46.5%!important;
+    width: 77%!important;
+    font-size: 15px!important;
+  }
+   .mobileicon
+  {
+  	    margin-left: 78%!important;
+  }
+
+
+     .bluebtn{
+      width:100% !important;
+  }
+
+
+
+   .contentcard {
+    margin-left: 0%;
+    width: 100%;
+}
+
+.searchbtn
+{
+  position: absolute !important;
+    right: 3px !important;
+    top: 11px !important;
+  }
+
+ .padcontent
+{
+   padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.tableft
+{
+    margin-left: 8px !important;
+}
+
+  }
+@media  screen and (max-width: 375px) {
+   .sellab
+  {
+    margin-left: 1%!important;
+  }
+  .chipsel
+  {
+     margin-left: 18%!important;
+    margin-top: -9%!important;
+  }
+  .delsel
+  {
+    margin-left: -10%!important;
+    margin-top: -11%!important;
+  }
+  .ballab
+  {
+     margin-top: 2%!important;
+    margin-left: -27%!important;
+  }
+  .balrad
+  {
+    margin-top: 1.5%!important;
+    margin-left: 5%!important;
+  }
+  .linlab
+  {
+    margin-top: 1%!important;
+    margin-left: -32%!important;
+  }
+  .linrad
+  {
+    margin-top: -0.5%!important;
+    margin-left: 5.5%!important;
+  }
+  .ranlab
+  {
+    margin-top: 1.8%!important;
+    margin-left: -34.1%!important;
+  }
+  .fromdrop
+  {
+     margin-bottom: -3%!important;
+    margin-left: -31.5%!important;
+  }
+  .frominput
+  {
+    margin-left: 42%!important;
+    width: 84%!important;
+    font-size: 15px!important;
+  }
+   .todrop
+  {
+     margin-bottom: -3%!important;
+    margin-left: -34.5%!important;
+  }
+  .toinput
+  {
+    margin-left: 46%!important;
+    width: 84%!important;
+    font-size: 15px!important;
+  }
+   .mobileicon
+  {
+  	    margin-left: 75%!important;
+  }
+
+  .contentcard {
+    margin-left: 0%;
+    width: 100%;
+}
+
+.padcontent
+{
+   padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.tableft
+{
+    margin-left: 6px !important;
+}
+}
+
+@media  screen and (max-width: 320px) {
+  .sellab
+  {
+    margin-left: 2%!important;
+  }
+  .chipsel
+  {
+    margin-left: -18%!important;
+    margin-top: 2%!important;
+  }
+  .delsel
+  {
+    margin-left: -21%!important;
+    margin-top: -12%!important;
+  }
+  .ballab
+  {
+     margin-top: -1%!important;
+    margin-left: -27%!important;
+  }
+  .balrad
+  {
+    margin-top: 1.5%!important;
+    margin-left: 2%!important;
+  }
+  .linlab
+  {
+    margin-top: 1%!important;
+    margin-left: -33%!important;
+  }
+  .linrad
+  {
+    margin-top: -0.5%!important;
+    margin-left: 2%!important;
+  }
+  .ranlab
+  {
+    margin-top: 1.8%!important;
+    margin-left: -34.1%!important;
+  }
+  .fromdrop
+  {
+     margin-bottom: -3%!important;
+    margin-left: -31.5%!important;
+  }
+  .frominput
+  {
+    margin-left: 42%!important;
+    width: 84%!important;
+    font-size: 15px!important;
+  }
+   .todrop
+  {
+     margin-bottom: -3%!important;
+    margin-left: -34.5%!important;
+  }
+  .toinput
+  {
+    margin-left: 46%!important;
+    width: 84%!important;
+    font-size: 15px!important;
+  }
+  .mobileicon
+  {
+  	    margin-left: 71%!important;
+  }
+  
+   .contentcard {
+    margin-left: 0%;
+    width: 100%;
+}
+
+.padcontent
+{
+   padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.tableft
+{
+    margin-left: 5px !important;
+}
+
+}

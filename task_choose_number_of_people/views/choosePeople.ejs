@@ -1,0 +1,275 @@
+
+<!doctype html>
+<html lang="en">
+<style>
+.tble
+{
+  text-align-last:  center;
+}
+.clr
+{
+    color : #074ab7;
+    font-size: 25px;
+}
+.iconclr
+{ font-size: 2em;
+    color : #f9616e;
+}
+.fa.disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+.fa {
+  cursor: pointer;
+}
+</style>
+<head>
+  <meta charset="utf-8" />
+ 
+  <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+     name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+ 
+
+    <link href="/css/mdb.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/pro.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/material-dashboard.css" rel="stylesheet"/>
+
+<script>
+
+
+var rooms;
+var adults;
+var children;
+var rooms_int;
+var adults_int;
+var children_int;
+function roomsplus()
+{
+ rooms=document.getElementById("r1").innerText;
+
+if(rooms<5)
+ rooms_int=parseInt(rooms)+1;
+ 
+  document.getElementById("r1").innerText=rooms_int;
+roommn="enabled"
+ roomps="enabled"
+adultsps="enabled"
+childrenps="ënabled"
+   if(rooms>4)
+   roomps="disabled"
+
+}
+
+function roomsminus()
+{
+ rooms=document.getElementById("r1").innerText;
+ rooms_int=parseInt(rooms)
+adults=document.getElementById("r2").innerText;
+children=document.getElementById("r3").innerText;
+
+
+adults_int=parseInt(adults)
+children_int=parseInt(children)
+
+adultsps="disabled"
+ childrenps="disabled"
+ 
+  if((rooms_int)>1)
+  {
+ 
+   rooms = rooms_int-1;
+   rooms_int=parseInt(rooms)
+    document.getElementById("r1").innerText=rooms;
+	
+ 
+     if((adults_int+children_int)>rooms_int*4)
+     {
+	
+       while((adults_int+children_int)!=rooms_int*4)
+       {
+         if(children_int>0){
+         children_int = children_int-1;
+	
+		  document.getElementById("r3").innerText=children_int;
+}
+        if(children_int==0){
+          adults_int = adults_int-1;
+		   console.log(adults_int)
+		  document.getElementById("r2").innerText=adults_int;
+}
+       }
+       
+     }
+  }if(rooms_int==1)
+   roommn1="disabled"
+  if(rooms_int==4)
+  roomps="enabled"
+}
+
+
+function adultsplus()
+{
+ rooms=document.getElementById("r1").innerText;
+ adults=document.getElementById("r2").innerText;
+ children=document.getElementById("r3").innerText;
+
+ rooms_int=parseInt(rooms);
+ adults_int=parseInt(adults);
+ children_int=parseInt(children);
+
+  if((adults_int+children_int)<rooms_int*4)
+  adults_int = adults_int+1;
+  document.getElementById("r2").innerText=adults_int;
+adultsps="enabled"
+adultsmn="enabled"
+
+   if((adults_int+adults_int)==rooms_int*4)
+    adultsps="disabled"
+}
+
+function adultsminus()
+{
+rooms=document.getElementById("r1").innerText;
+adults=document.getElementById("r2").innerText;
+children=document.getElementById("r3").innerText;
+
+ rooms_int=parseInt(rooms);
+ adults_int=parseInt(adults);
+ children_int=parseInt(children);
+
+  adultsps="enabled"
+  childrenps="enabled"
+  if(adults_int>1)
+  {
+      adults_int = adults_int-1;
+  document.getElementById("r2").innerText=adults_int;
+  }
+  if(adults_int==1)
+  adultsmn="disabled"
+  if(adults_int==(rooms_int*4)-1)
+    adultsps="enable"
+}
+
+function childrenplus()
+{
+rooms=document.getElementById("r1").innerText;
+adults=document.getElementById("r2").innerText;
+children=document.getElementById("r3").innerText;
+ rooms_int=parseInt(rooms);
+ adults_int=parseInt(adults);
+ children_int=parseInt(children);
+
+
+  if((adults_int+children_int)<rooms_int*4)
+  children_int = children_int+1;
+  children=document.getElementById("r3").innerText=children_int;
+  childrenmn = "enable"
+  if((adults_int)==rooms_int*4)
+    childrenps="disabled"
+}
+
+function childrenminus()
+{
+adults=document.getElementById("r2").innerText;
+children=document.getElementById("r3").innerText;
+
+ rooms_int=parseInt(rooms);
+ adults_int=parseInt(adults);
+ children_int=parseInt(children);
+
+  adultsps="enabled"
+  childrenps="enabled"
+  if(children_int>0)
+  children_int = children_int-1;
+  children=document.getElementById("r3").innerText=children_int;
+
+  if(children_int==0)
+  childrenmn="disabled"
+}
+
+
+
+</script>
+
+<br>
+<br>
+<br>
+<div class="container-fluid  col-md-5 ml-10">
+  <p class="clr"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; Choose number of people</p>
+<div class=" card ">
+
+<table class="table">
+ 
+  <tbody>
+    <tr>
+   
+      <td class="clr"><i class="fa fa-bed fa-2x" aria-hidden="true"></i>&nbsp;&nbsp; ROOMS</td>
+      	
+      <td class="tble"> 
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-2">	  
+	  <i  class="fa fa-minus-circle clr fa-2x "  aria-hidden="true" onclick="roomsminus()" ></i>&nbsp;
+    </div> 
+	
+	<div class="col-md-2">
+      <i class="fa fa-plus-circle iconclr roomps fa-2x" aria-hidden="true" onclick="roomsplus()"></i>
+	  </div>
+	  <div class="col-md-2">
+	  <p id="r1"><%= room%></p> 
+	  </div>
+	  
+	  </div>
+	  </td>
+    </tr>
+    <tr>
+      <td class="clr"><i class="fa fa-user fa-2x " aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; ADULTS</td>
+      
+     <td class="tble">
+	 <div class="row">
+<div class="col-md-4">
+</div>
+	<div class="col-md-2">	  
+	 <i class="fa fa-minus-circle clr adultsmn fa-2x" aria-hidden="true" onclick="adultsminus()"></i>&nbsp;&nbsp;
+   </div>
+   
+   <div class="col-md-2">	 
+      <i class="fa fa-plus-circle iconclr adultsps fa-2x" aria-hidden="true" onclick="adultsplus()"></i>
+	  </div>
+	  
+	   <div class="col-md-2">	 
+	    <p id="r2"><%=adults%></p> &nbsp;&nbsp;&nbsp;</td>
+		</div>
+	 
+		</div>
+		</td>
+    </tr>
+    <tr >
+       <td class="clr"><i class="fa fa-child fa-2x" aria-hidden="true"></i>&nbsp;&nbsp; CHILDREN</td>
+      	
+      <td class="tble">
+	  	 <div class="row">
+<div class="col-md-4">
+</div>
+  <div class="col-md-2">
+<i class="fa fa-minus-circle clr childrenmn fa-2x" aria-hidden="true" onclick="childrenminus()"></i>&nbsp;&nbsp;
+    </div>
+	  
+
+  <div class="col-md-2">	
+      <i class="fa fa-plus-circle iconclr childrenps fa-2x" aria-hidden="true" onclick="childrenplus()"></i>
+	  </div>
+	  <div class="col-md-2">	 
+	    <p id="r3"><%=children%></p> &nbsp;&nbsp;&nbsp;</td>
+		</div>
+	   </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
